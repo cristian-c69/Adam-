@@ -48,7 +48,7 @@ public class Guia3Ej6 {
                 do {
                     System.out.println("Seguro que quiere salir? "+ "s/n");
                     respuesta=leer.next();
-                } while (respuesta.equalsIgnoreCase("s"));
+                } while (respuesta.equalsIgnoreCase("n"));
                 
                 break;
                 
