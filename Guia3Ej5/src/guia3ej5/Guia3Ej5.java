@@ -12,19 +12,17 @@ public class Guia3Ej5 {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese un valor Limite positivo: ");
         int numL=leer.nextInt();
-        System.out.println("Ingrese 2 numeros mas : ");
-        int num1 =leer.nextInt();
-        int num2 =leer.nextInt();
-        int result= num1 + num2;
+               
+        int result=0 ;
         
         while (result < numL){
             System.out.println("Ingrese otro numero : ");
-            int numV=leer.nextInt();
-            result= numV+result;
+            
+            result += leer.nextInt();
             
         }
                  
-        System.out.println("Llegaste al limite.");
+        System.out.println("Llegaste al limite. la suma es: " + result);
     }
     
 }
